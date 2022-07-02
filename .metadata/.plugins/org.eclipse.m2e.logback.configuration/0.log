@@ -1,0 +1,19 @@
+2022-07-02 17:17:19,139 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-02 17:17:56,926 [Worker-71: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-spring-demo:0.0.1-SNAPSHOT @ C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\pom.xml.
+2022-07-02 17:17:57,390 [Worker-110: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-spring-demo:0.0.1-SNAPSHOT @ C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\pom.xml.
+2022-07-02 17:18:00,295 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:00,301 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-02 17:18:00,321 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 28 resources
+2022-07-02 17:18:00,617 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:00,617 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\src\test\resources
+2022-07-02 17:18:03,299 [Worker-86: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-spring-demo:0.0.1-SNAPSHOT @ C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\pom.xml.
+2022-07-02 17:18:03,793 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:03,815 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-02 17:18:03,848 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 28 resources
+2022-07-02 17:18:04,102 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:04,102 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\src\test\resources
+2022-07-02 17:18:06,718 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:06,719 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-02 17:18:06,720 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-02 17:18:06,723 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-02 17:18:06,724 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\officina\officina_siw\catering\src\test\resources
