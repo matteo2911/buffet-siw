@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/css/basic.css}" rel="stylesheet">
+
+<head>
+	<title>Inserisci chef</title>
+</head>
+
+<body>
+	<div class="barraNavigazione">
+        <div style="float: left; margin-top: 8px;">
+            <a href="default"><img th:src="@{${'/images/catering.jpg'}}" height="30px" width="30px" style="padding: 0.73%;"></a>
+        </div>
+        <div style="float:right ;">
+            <li><a href="/logout" style="text-align: center">Logout</a></li>
+        </div>
+        <div>
+            <ul>
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/buffet">Buffet</a></li>
+                <li><a href="/piatto">Piatti</a></li>
+                <li><a href="/ingredienti">Ingredienti</a></li>
+            </ul>
+        </div>
+    </div>
+
+	<form th:action="@{/admin/chef}" method="POST" th:object="${chef}">
+		<h4 class="titolo" style="margin-left:40%;">Inserisci i dati di uno chef</h4>
+		<div th:if="${#fields.hasGlobalErrors()}">
+			<p th:each="err : ${#fields.globalErrors()}" th:text="${err}">...</p>
+		</div>
+		<div style="text-align: right;margin:0 auto; margin-right:40%;">
+			<div>
+				<span class="campo-form">Nome:</span>
+				<span ><input type="text" th:field="*{nome}" required /></span>
+				<span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></span>
+			</div>
+			<div>
+				<span class="campo-form">Cognome:</span>
+				<span><input type="text" th:field="*{cognome}"  required/></span>
+				<span th:if="${#fields.hasErrors('cognome')}" th:errors="*{cognome}"></span>
+			</div>
+			<div>
+				<span class="campo-form">Nazionalita:</span>
+				<span><input type="text" th:field="*{nazionalita}" required/></span>
+			</div>
+			<br>
+			
+
+		</div>
+		<div>
+			<span><button type="submit" class="sub-button"th:text="#{invio}">Invio</button></span>
+			<span><button type="reset" class="sub-button"th:text="#{cancella}">Cancella</button></span>
+			<span><a href="/admin/adminPanel"><button type="button" class="sub-button"th:text="#{indietro}">Indietro</button></a></span>
+		</div>
+	</form>
+	
+</body>
+
+</html>
