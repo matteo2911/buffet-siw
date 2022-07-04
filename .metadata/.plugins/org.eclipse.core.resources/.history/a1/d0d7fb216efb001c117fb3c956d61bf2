@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/css/basic.css}" rel="stylesheet">
+
+<head>
+    <title>Home</title>
+</head>
+
+<body >
+
+	<body style="background-size: 100% ; width:50%; height: 50%;" background="/images/sfondo_catering.jpg">
+	
+    <div class="barraNavigazione">
+        <div style="float: left; margin-top: 8px;">
+            <a href="default"><img th:src="@{${'/images/catering.jpg'}}" height="30px" width="30px" style="padding: 0.73%;"></a>
+        </div>
+        <div style="float:right ;">
+            <li><a href="/logout" style="text-align: center">Logout</a></li>
+        </div>
+        <div>
+            <ul>
+            	 
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/buffet">Buffet</a></li>
+                <li><a href="/piatto">Piatti</a></li>
+                <li><a href="/ingredienti">Ingredienti</a></li>
+				<li><form th:if="${credentials.role == 'ADMIN'}"><a href="/admin/adminPanel">Admin</a></form> </li></form>               
+            </ul>
+        </div>
+    </div>
+
+    <h2 style="text-align: center;"> GRAN CATERING SERVICE</h2>
+
+    <div class="informazioni">
+        <div style="margin-left:16%;">
+            <img th:src="@{${'/images/matrimonio.jpg'}}" style="height: 200px; width: 300px;  margin-left: 100px;">
+            <img th:src="@{${'/images/evento_privato.jpg'}}"style="height: 200px; width: 300px; margin-left: 100px;">
+            <img th:src="@{${'/images/evento_aziendale.jpg'}}" style="height: 200px; width: 300px; margin-left: 100px;"> 		
+        </div>
+        
+        <ul style="margin-left:14%;">
+            <li> Servizio catering matrimonio</li>
+            <li style="margin-left:250px"> Eventi privati</li>
+            <li style="margin-left:320px"> Eventi aziendali</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

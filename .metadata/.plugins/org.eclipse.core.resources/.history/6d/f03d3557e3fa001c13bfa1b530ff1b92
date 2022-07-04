@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/css/basic.css}" rel="stylesheet">
+
+<head>
+	<title>Inserisci Artista</title>
+</head>
+
+<body>
+	<nav>
+		<p class="titolo">ROME ARENA</p>
+	</nav>
+
+	<form th:action="@{'/admin/artista/' + ${artista.id}}" method="POST" th:object="${artista}">
+		<h4 class="titolo">Inserisci i dati di un artista</h4>
+		<div th:if="${#fields.hasGlobalErrors()}">
+			<p th:each="err : ${#fields.globalErrors()}" th:text="${err}">...</p>
+		</div>
+		<div style="text-align: right;margin:0 auto; margin-right:40%;">
+			<div>
+				<span class="campo-form">Nome:</span>
+				<span ><input type="text" th:field="*{nome}" required /></span>
+				<span th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}"></span>
+			</div>
+			<div>
+				<span class="campo-form">Cognome:</span>
+				<span><input type="text" th:field="*{cognome}"  required/></span>
+				<span th:if="${#fields.hasErrors('cognome')}" th:errors="*{cognome}"></span>
+			</div>
+			
+			<div>
+				<span class="campo-form">Data di nascita:</span>
+				<span><input type="date" th:field="*{dataDiNascita}"  required/></span>
+			</div>
+			<div>
+				<span class="campo-form">Luogo di nascita:</span>
+				<span><input type="text" th:field="*{luogoDiNascita}" required/></span>
+			</div>
+			<br>
+			
+
+		</div>
+		<div>
+			<span><button type="submit" class="sub-button"th:text="#{invio}">Invio</button></span>
+			<span><button type="reset" class="sub-button"th:text="#{cancella}">Cancella</button></span>
+			<span><a href="/admin/adminPanel"><button type="button" class="sub-button"th:text="#{indietro}">Indietro</button></a></span>
+		</div>
+	</form>
+	
+</body>
+
+</html>

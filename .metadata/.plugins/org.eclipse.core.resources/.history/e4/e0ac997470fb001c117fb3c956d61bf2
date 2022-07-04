@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<link th:href="@{/css/basic.css}" rel="stylesheet">
+	<head><title>Buffets</title></head>
+
+<body style="background-size: 100% ; height: 50%;color:#fff;" background="/images/sfondo_catering.jpg">
+
+	 <div class="barraNavigazione">
+        <div style="float: left; margin-top: 8px;">
+            <a href="/default"><img th:src="@{${'/images/catering.jpg'}}" height="30px" width="30px" style="padding: 0.73%;"></a>
+        </div>
+        <div style="float:right ;">
+            <li><a href="/logout" style="text-align: center">Logout</a></li>
+        </div>
+        <div>
+            <ul>
+                <li><a href="/chef">Chef</a></li>
+                <li><a href="/buffet">Buffet</a></li>
+                <li><a href="/piatto">Piatti</a></li>
+                <li><a href="/ingredienti">Ingredienti</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <h4 class="titolo" style="margin-left: 41%;">I NOSTRI BUFFET</h4>
+	<div style="margin-left: 48%;font-size: 15px;">
+		<ul style="margin-right: 2%;">
+			<li style="margin-top: 25px;" th:each="buffet : ${buffets}">
+				<a href="buffet.html" 
+				   th:href="@{'/buffet' + '/' + ${buffet.id}}">
+				   <span class="lista"  th:text="${buffet.nome}" style="color: black;">Paolo Rossi</span></a>
+			</li>
+		</ul>
+	</div>
+	<span style="margin-left: 45%;">
+		<a href="/default">
+			<button type="button" class="sub-button" style="margin:30px;"th:text="#{indietro}">Indietro</button>
+		</a>
+	</span>
+</body>
+</html>
