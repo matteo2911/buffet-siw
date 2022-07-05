@@ -1,1 +1,15 @@
 2022-02-15 00:09:09,621 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-05 19:33:11,646 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-05 19:41:23,098 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-spring-demo:0.0.1-SNAPSHOT @ C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\pom.xml.
+2022-07-05 19:41:25,724 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 19:41:25,731 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-05 19:41:25,759 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-07-05 19:41:26,208 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 19:41:26,209 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\src\test\resources
+2022-07-05 19:41:26,986 [Worker-109: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: it.uniroma3.siw:siw-spring-demo:0.0.1-SNAPSHOT @ C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\pom.xml.
+2022-07-05 19:41:30,991 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 19:41:31,015 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-05 19:41:31,039 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-07-05 19:41:31,326 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 19:41:31,326 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\src\test\resources
+2022-07-05 19:41:59,135 [Worker-31: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
