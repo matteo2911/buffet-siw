@@ -13,3 +13,8 @@
 2022-07-05 19:41:31,326 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-07-05 19:41:31,326 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\src\test\resources
 2022-07-05 19:41:59,135 [Worker-31: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-05 22:30:05,212 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 22:30:05,221 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-07-05 22:30:05,240 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 36 resources
+2022-07-05 22:30:05,530 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-07-05 22:30:05,531 [Worker-118: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\museo-siw\src\test\resources
