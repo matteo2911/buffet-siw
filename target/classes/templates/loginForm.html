@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/css/basic.css}" rel="stylesheet">
+
+<head>
+    <title>Login_form</title>
+</head>
+
+
+<body>
+<form th:action="@{/login}" method="POST">
+    <h4 class="titolo" style="margin-left: 48%;">LOGIN</h4>
+    <div style="margin-left: 40%;">
+        <div style="margin-top:5%;">
+            <div style="margin-left: 80px;">
+                <div class="input-div">
+                    <span><input class="input-obj" name="username" type="text"  placeholder="Username" required /></span>
+                </div>
+                <div class="input-div">
+                    <span><input class="input-obj" name="password" type="password"  placeholder="Password" required /></span>
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+                <span><button class="sub-button" type="submit">Login</button></span>
+                <span><button type="reset" class="sub-button">Cancella</button></span>
+            </div>
+        </div>
+        </form>
+        <span style="padding-left: 10%;"><a href="/index"><button class="sub-button">Indietro</button></a></span>
+    </div>
+</body>
+
+</html>

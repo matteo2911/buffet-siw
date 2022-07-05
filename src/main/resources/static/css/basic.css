@@ -1,0 +1,130 @@
+
+  .barraNavigazione {
+        background-color: gray;
+        color: white;
+        border-radius: 6px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+    }
+    
+    .barraNavigazione li {
+        display: inline-block;
+        padding: 15px;
+    }
+    
+    .barraNavigazione li a:hover {
+        background-color: lightgray;
+    }
+    
+    .descrizione {
+        height: 120px;
+        color: black;
+        font-size: 14px;
+    }
+    
+    .titolo {
+        padding-top: 0.1%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    
+    .input-div {
+        margin: 0 auto;
+        padding: 10px;
+        height: 20px;
+    }
+    
+    .campo-form {
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-shadow: 0 0 3px whitesmoke, 0 0 5px whitesmoke;
+    }
+    
+    .sub-button {
+        min-width: 140px;
+        min-height: 35px;
+        border-radius: 10px;
+        border: transparent;
+        margin: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        color: white;
+    }
+    
+    .sub-button:hover {
+        background-color: lightgray;
+    }
+    
+    .input-obj {
+        height: 20px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .informazioni li {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.informazioni {
+    margin-top: 150px;
+}
+    
+    .chiSiamo div li {
+        display: inline-block;
+        border-top: 100px;
+    }
+    
+    .chiSiamoDes div {
+        background-color: lightgrey;
+        float: left;
+        margin-left: 100px;
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+        text-align: center;
+    }
+    
+    .oggetti li {
+        margin-left: 600px;
+        margin-top: 10px;
+    }
+    
+    .dati li {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

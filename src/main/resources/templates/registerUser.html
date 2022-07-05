@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{/css/basic.css}" rel="stylesheet">
+
+<head>
+    <title>Registrazione Form</title>
+</head>
+
+
+
+<body>
+	<form th:action="@{/register}" method="POST">
+    <h4 class="titolo" style="margin-left: 40%;">REGISTRAZIONE</h4>
+    <div style="margin-left: 40%;">
+        <div style="margin-top:5%;">
+            <div style="margin-left: 80px;">
+                <div class="input-div">
+                    <span><input class="input-obj" name="nome" type="text"  placeholder="Nome" required th:field="${user.nome}"/></span>
+                </div>
+                <div class="input-div">
+                    <span><input class="input-obj" name="cognome" type="text"  placeholder="Cognome" required th:field="${user.cognome}" /></span>
+                </div>
+                <div class="input-div">
+                    <span><input class="input-obj" name="username" type="text"  placeholder="Username" required th:field="${credentials.username}" /></span>
+                </div>
+                <div class="input-div">
+                    <span><input class="input-obj" name="password" type="password"  placeholder="Password" required  th:field="${credentials.password}"/></span>
+                </div>
+            </div>
+            <div style="margin-top: 30px;">
+
+                <span><button class="sub-button" type="submit">Registrati</button></span>
+                <span><button type="reset" class="sub-button">Cancella</button></span>
+            </div>
+        </div>
+        </form>
+        <span style="padding-left: 10%;"><a href="index.html"><button class="sub-button">Indietro</button></a></span>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
