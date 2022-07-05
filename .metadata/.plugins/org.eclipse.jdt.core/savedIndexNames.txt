@@ -29,9 +29,9 @@ INDEX VERSION 1.131+C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\buffet-siw\
 3505261708.index
 3744086486.index
 3079356551.index
-2980896993.index
-4209126872.index
 4136608444.index
+4209126872.index
+2980896993.index
 279283571.index
 4119064652.index
 1949669951.index
@@ -87,7 +87,6 @@ INDEX VERSION 1.131+C:\Users\Matteo Romeo\Documents\GitHub\siw_museo\buffet-siw\
 1514086108.index
 606903329.index
 1223139168.index
-1848892229.index
 1707174408.index
 3426738449.index
 1155500955.index
